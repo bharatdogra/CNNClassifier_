@@ -5,10 +5,10 @@ __version__ = '0.0.1'
 with open("README.md", "r", encoding="utf-8") as f:
     long_description=f.read()
 
-REPO_NAME="fdsdcnnclassifier"
-AUTHOR_NAME="sunny savita"
+REPO_NAME="CNNClassifier_"
+AUTHOR_NAME="bharatdogra"
 SRC_REPO="CNNClassifier"
-AUTHOR_Email="sunny.savita@ineuron.ai"
+AUTHOR_Email="bharatmdogra@gmail.com"
 
 setuptools.setup(
         name=SRC_REPO,
@@ -27,7 +27,6 @@ setuptools.setup(
                      },
         package_dir={"":"src"},
         packages=setuptools.find_packages(where="src")
-                 
-                 
+                             
                  
                  )
